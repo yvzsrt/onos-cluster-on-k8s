@@ -23,6 +23,17 @@ After clone this repo:
 
 `helm install onos-kubernetes --name onos --set heap=2G --set image.tag=1.15.0 --set atomix.image.tag=3.0.11 --set replicas=3 --set atomix.replicas=3 --set atomix.persistence.size=1Gi --set atomix.persistence.storageClass=managed-nfs-storage`
 
+> ONOS UI: http://nodeip:31818/onos/ui
+
+## mininet test
+
+
+
+## Delete Setup
+
+`helm delete --purge onos`
+
+`kubectl delete pvc data-onos-atomix-0 data-onos-atomix-1 data-onos-atomix-2`
 
 
 
