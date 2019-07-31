@@ -19,5 +19,6 @@ spec:
     port: 8101
   - name: ui
     port: 8181
+  clusterIP: None
   selector:
     app: {{ template "fullname" . }}
