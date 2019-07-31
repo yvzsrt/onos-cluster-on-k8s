@@ -19,6 +19,8 @@ After clone this repo:
 
 `helm dependency update`
 
+`cd ..`
+
 `helm install onos-kubernetes --name onos --set heap=2G --set image.tag=1.15.0 --set atomix.image.tag=3.0.11 --set replicas=3 --set atomix.replicas=3 --set atomix.persistence.size=1Gi --set atomix.persistence.storageClass=managed-nfs-storage`
 
 
