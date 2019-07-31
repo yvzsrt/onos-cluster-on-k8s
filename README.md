@@ -9,13 +9,13 @@ atomix helm chart is from [atomix/atomix-helm](https://github.com/atomix/atomix-
 
 onos-kubernetes chart is from [opennetworkinglab/onos-kubernetes](https://github.com/opennetworkinglab/onos-kubernetes)
 
-#Installation
+# Installation
 
 You need a dynamic storage volume for this setup. I'm using [nfs-client](https://github.com/kubernetes-incubator/external-storage)
 
 After clone this repo:
 
-`cd onos-kubernetes`
+`cd onos-cluster-on-k8s/onos-kubernetes/`
 
 `helm dependency update`
 
