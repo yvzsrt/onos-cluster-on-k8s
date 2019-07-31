@@ -2,4 +2,4 @@ dependencies:
 - name: atomix
   version: 0.1.2
 #  repository: file://../../../atomix-k8s
-  repository: file://../../atomix
+  repository: file://../atomix
