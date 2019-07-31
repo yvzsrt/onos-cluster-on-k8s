@@ -1,4 +1,4 @@
-#Onos Cluster on Kubernetes
+# ONOS Cluster on Kubernetes
 
 ONOS has changed its cluster infrastructure with 1.14 release and separated cluster storage and ONOS control functions.
 From version 1.14, atomix is used to manage cluster storage and membership. So, you have to install atomix and Onos separately.
