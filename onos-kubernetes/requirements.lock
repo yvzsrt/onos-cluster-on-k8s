@@ -1,0 +1,6 @@
+dependencies:
+- name: atomix
+  repository: file://../../../atomix-helm/atomix
+  version: 0.1.2
+digest: sha256:de69e352f49fb4ba4ed290f37f34f6959df56be5042bacfd01b47790a71aef0e
+generated: "2019-07-24T15:44:33.29095488+03:00"
